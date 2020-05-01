@@ -13,18 +13,21 @@
     action="https://formspree.io/ducnguyenan@gmail.com"
     method="POST"
   >
-    <label>
-      Your Name:
-      <input type="text" name="name">
-    </label>
-    <label>
-      Your Email:
-      <input type="email" name="_replyto">
-    </label>
-    <label>
-      Message:
-      <textarea name="message"></textarea>
-    </label>
+  <div class="row margin-top-30">
+    <div class="col-md-12">   
+
+    <div class="row">
+
+    <div class="col-sm-6"><div class="form-group">
+    <input type="text" name = "name" class="form-control" required placeholder="Your Name:">
+
+    <div class="col-sm-6"><div class="form-group">
+    <input type="email" name="email" class="form-control" required placeholder="Your Email">
+
+    <div class="col-sm-12"><div class="text-area form-group">
+    <textarea type="msg" name="message" class="form-control" required placeholder="Your Message" rows="5"></textarea>
+
+    <div class="col-sm-6"><div class="form-group"></div>
     <input type="submit" value="Send">
   </form>
 
